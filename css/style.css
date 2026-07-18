@@ -27,9 +27,13 @@ nav a {
 
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .65)), url('../assets/images/20251026_030716602_iOS.jpg') center/cover no-repeat;
-    display: flex;
-    align-items: center
+    background:
+        linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .65)),
+        url("../assets/images/20251026_030716602_iOS.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 }
 
 .overlay {
